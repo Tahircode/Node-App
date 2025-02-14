@@ -1,4 +1,5 @@
-import { Client } from "pg";
+import pkg from 'pg';
+const { Client } = pkg;
 
 const client=new Client({
  connectionString:"postgresql://neondb_owner:npg_C7Nk9ZxshQEf@ep-still-tree-a853qi12-pooler.eastus2.azure.neon.tech/neondb?sslmode=require"
